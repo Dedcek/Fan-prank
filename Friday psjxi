@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>هشدار ویروس!</title>
+<style>
+body {
+  background: black;
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20%;
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>گوشی شما آلوده شد!</h1>
+<p>در حال حذف فایل‌ها...</p>
+<script>
+setTimeout(()=>{
+  alert("فقط شوخی بود! 😄");
+  document.body.innerHTML = "<h1 style='color:lime'>شوخی بود! گوشیت سالمه 😎</h1>";
+}, 5000);
+</script>
+</body>
+</html>
